@@ -27,7 +27,7 @@ class Application
       if @@items.include?(search_term)
         @@carts.push(search_term)
       else 
-        resp.write "Co"
+        resp.write "We don't have that item"
     else
       resp.write "Path Not Found"
     end
